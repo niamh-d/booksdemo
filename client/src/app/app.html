@@ -1,0 +1,13 @@
+<h1 class="text-3xl font-semibold">{{ title }}</h1>
+
+@if (users != null) {
+<div class="mt-5">
+  <ul>
+    @for (user of users(); track $index) {
+    <li>{{ user.name }}</li>
+    } @empty {
+    <li>There are no items.</li>
+    }
+  </ul>
+</div>
+}

@@ -1,0 +1,35 @@
+# Repo-local tooling
+client/.angular/
+.cursor/
+# Node / client
+client/node_modules
+client/dist
+client/.angular
+
+# Angular cache
+client/.angular/cache
+
+# Backend MMaven
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE / editor
+.idea
+.vscode
+*.iml
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Local temp files
+temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+backend/api/spy.log
+client/.editorconfig
