@@ -10,8 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class BooksDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BooksDemoApplication.class, args);
-	}
+		SpringApplication.run(BooksDemoApplication.class, args);}
 
     @Bean
     public WebMvcConfigurer corsConfigurer() {
