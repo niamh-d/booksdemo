@@ -25,12 +25,14 @@ public class BooksDemo {
 
             ObjectMapper mapper = new ObjectMapper();
             List<AuthorJson> authorsReadJson = mapper.readValue(
-                    new File("src/main/resources/data/dummmyAuthors.json"),
-                    new TypeReference<List<AuthorJson>>() {}
+                    new File("C:\\Users\\niamh\\Development\\IntellijProjects\\booksdemo\\backend\\src\\main\\resources\\data\\dummyAuthors.json"),
+                    new TypeReference<>() {
+                    }
             );
             List<BookJson> booksReadJson = mapper.readValue(
-                    new File("src/main/resources/data/summyBooks.json"),
-                    new TypeReference<List<BookJson>>() {}
+                    new File("C:\\Users\\niamh\\Development\\IntellijProjects\\booksdemo\\backend\\src\\main\\resources\\data\\dummyBooks.json"),
+                    new TypeReference<>() {
+                    }
             );
 
             List<Author> savedAuthors = new ArrayList<>();

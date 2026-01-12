@@ -13,10 +13,13 @@ public class Book {
     @GeneratedValue(strategy= GenerationType.UUID)
     private String id;
     private String title;
+    @ManyToMany
     private List<Author> authors;
     private String description;
     private String publisher;
     private String publishedYear;
+
+    public Book() {}
 
     public Book(CreateBookDto createBookDto) {
         this.title = createBookDto.title();

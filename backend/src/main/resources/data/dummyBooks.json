@@ -1,19 +1,19 @@
 [
   {
     "title" : "The Secret to Flawless Java",
-    "authorIds" : ["Julie Jones"],
+    "authorNames" : ["Julie Jones"],
     "publisher" : "Great Software Books",
     "publishedYear" : "2010"
   },
   {
     "title" : "How Not to Go Mad Learning Java",
-    "authorIds": ["John Smith"],
+    "authorNames": ["John Smith"],
     "publisher" : "Handy Guides Publishing",
     "publishedYear" : "2022"
   },
   {
     "title" : "The Secret to Flawless Kotlin",
-    "authorIds" : ["Julie Jones", "Susan Murphy"],
+    "authorNames" : ["Julie Jones", "Susan Murphy"],
     "publisher" : "Great Software Books",
     "publishedYear" : "2015"
   }

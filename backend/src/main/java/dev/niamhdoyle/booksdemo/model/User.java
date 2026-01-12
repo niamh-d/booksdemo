@@ -16,6 +16,8 @@ public class User {
 
     private String password;
 
+    public User() {}
+
     public User(CreateUserDto createUserDto) {
         this.userName = createUserDto.userName();
         this.password = createUserDto.password();

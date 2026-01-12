@@ -9,12 +9,15 @@ import java.util.List;
 @Table(name = "shelves")
 public class Shelf {
     @Id
-    @GeneratedValue(strategy= GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     @ManyToOne(fetch = FetchType.LAZY)
     private Member member;
+    @ManyToMany
     List<Book> books;
+
+    public Shelf() {}
 
     public Shelf(CreateShelfDto createShelfDto) {
         name = createShelfDto.name();

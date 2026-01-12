@@ -15,6 +15,8 @@ public class Author {
     private LocalDate birthDate;
     private String nationality;
 
+    public Author() {}
+
     public Author(CreateAuthorDto createAuthorDto) {
         this.firstName = createAuthorDto.firstName();
         this.lastName = createAuthorDto.lastName();

@@ -17,6 +17,8 @@ public class Member {
     private String description;
     private String avatar;
 
+    public Member() {}
+
     public Member(CreateMemberDto createMemberDto) {
         id = createMemberDto.id();
         userName = createMemberDto.userName();
